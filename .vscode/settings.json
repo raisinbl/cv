@@ -1,0 +1,9 @@
+{
+  "files.associations": {
+    "*.typ": "typst"
+  },
+  "[typst]": {
+    "editor.defaultFormatter": "myriad-dreamin.tinymist",
+    "editor.formatOnSave": true
+  }
+}
