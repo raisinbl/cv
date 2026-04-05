@@ -18,18 +18,17 @@
   )
   #if location != "" [#text(size: 9pt, style: "italic", fill: rgb("#666666"))[#location]]
   #if body != [] [
-    #v(0.15em)
+    #v(0.5em)
     #body
   ]
-  #v(0.45em)
+  #v(1em)
 ]
 
 #let skill-row(category, details) = [
   #grid(
-    columns: (1.4fr, 3fr),
+    columns: (1.5fr, 3fr),
     gutter: 0.7em,
-    [#text(weight: "bold")[#category]],
-    [#details],
+    [#text(weight: "bold")[#category]], [#details],
   )
   #v(0.25em)
 ]

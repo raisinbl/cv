@@ -3,8 +3,9 @@
 #let skills() = [
   #section("Skills")
 
-  #skill-row("Scripting Language", "Python, Bash, Java")
-  #skill-row("Data Manipulation", "Spark, Trino, Delta Lake, Kafka, Airflow")
-  #skill-row("Data Storage", "MinIO, HDFS, AWS S3, HBase")
-  #skill-row("Communication", "Vietnamese (Native), English (Excellent)")
+  #skill-row("Programming & Scripting Languages", "Python, Java, SQL, Bash")
+  #skill-row("Big Data Processing", "Spark, PySpark, Spark Streaming, Trino, Delta Lake")
+  #skill-row("Orchestration & Workflow", "Airflow, NiFi")
+  #skill-row("Data Storage & Warehousing", "HDFS, Minio, HBase, Hive, PostgreSQL")
+  #skill-row("Cloud & Platform", "AWS, Databricks, Kubernetes, Docker")
 ]

@@ -1,4 +1,4 @@
-#import "components.typ": section, entry
+#import "components.typ": entry, section
 
 #let experience() = [
   #section("Experiences")
@@ -41,8 +41,8 @@
 
   #entry(
     "Data Engineer",
-    "CMC Global",
-    location: "Onsite: Techcombank",
+    "CMC Global - Techcombank Project",
+    // location: "Onsite: Techcombank",
     date: "May 2025 - June 2025",
     body: [
       - *Domain*: Bank

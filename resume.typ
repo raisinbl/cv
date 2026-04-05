@@ -1,9 +1,10 @@
 #set page(
   paper: "a4",
-  margin: (left: 1.4cm, right: 1.4cm, top: 0.8cm, bottom: 1.8cm),
+  margin: (left: 1cm, right: 1cm, top: 0.5cm, bottom: 1cm),
 )
 
 #set text(size: 10pt, font: ("Helvetica Neue", "Arial"))
+#set par(spacing: 0.5em)
 
 #import "cv/summary.typ": summary
 #import "cv/education.typ": education
@@ -17,17 +18,9 @@
 
 #align(center)[
   #text(size: 24pt, weight: "bold")[NGUYEN DUY HUNG]
-
-  #v(0.2em)
-  #text(size: 9pt, fill: rgb("#666666"))[Cau Giay District, Ha Noi]
-
-  #v(0.2em)
+  #linebreak()
   #text(size: 9pt)[+84 972146333 | hung.nd.4work\@gmail.com]
 ]
-
-#v(0.5em)
-#line(length: 100%, stroke: (paint: rgb("#d4d4d4"), thickness: 0.5pt))
-
 #summary()
 #education()
 #experience()
@@ -38,4 +31,4 @@
 // #languages()
 // #projects()
 // #interests()
-// #achievements()
+#achievements()

@@ -4,9 +4,9 @@
   #section("Certificate")
 
   #entry(
-    "National Talent Search Exam (NTSE)",
-    "Level 1",
-    location: "India",
-    date: "2014",
+    "Databricks Certified Data Engineer Professional",
+    // "Level 1",
+    // location: "India",
+    date: "2025",
   )
 ]
