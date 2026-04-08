@@ -15,7 +15,7 @@
       - Designed a *metadata-driven ingestion framework* (*Airflow* + *Spark*) enabling *dynamic DAG generation* and standardized load strategies, reducing onboarding effort for new tables.
       - Scaled ingestion about 60 tables without linear increase in engineering effort by shifting from code-based to *configuration-driven pipelines*.
       - Diagnosed and resolved Spark job eviction on Kubernetes by identifying kubelet *disk pressure* and reconfiguring storage, significantly improving system stability.
-      - *Optimized* streaming pipelines by addressing *data skew* and redesigning execution model, *reducing runtime* from about 50 minutes to about 5 minutes (about 10x improvement).
+      - *Optimized* Spark Jobs by addressing *data skew* and redesigning execution model, *reducing runtime* from about 50 minutes to about 5 minutes (about 10x improvement).
       - Built *orchestration and monitoring workflows* (*Airflow*) including *dependency management*, *data reconciliation*, and *alerting* for SLA tracking.
       - Designed *hierarchical data model* to support business-driven parameter inheritance, enabling flexible configuration across multiple levels.
       - *Tech:* Spark, Airflow, MinIO
@@ -28,14 +28,13 @@
     date: "Dec 2023 - March 2025",
     body: [
       - *Domain*: Logistic and Transportation.
-      - Design, develop, and maintain scalable data pipelines and systems.
-      - Optimize and tune data processes for performance and scalability.
-      - Implement best practice for data governance: masking sensitive and PII data; role-based access to resources.
+      - Design, develop, and maintain scalable data pipelines and systems as well as optimize and tune data processes for performance and scalability.
+      - Implement data governance: masking sensitive and PII data; role-based access to resources on Trino.
       - Customize NiFi Processors and Services to adapt security requirements.
       - Develop and orchestrate workflows using Apache Airflow.
       - Utilize Spark, Trino for data manipulation and analysis.
-      - Backend side: write API to get data and export Excel using Quarkus.
-      - *Tech:* Spark, HDFS, HBase, NiFi, Airflow, Phoenix, Trino, Quarkus
+      - Support Backend development by writing APIs to get data and export Excel using Quarkus.
+      - *Tech:* Spark, HDFS, HBase, NiFi, Airflow, Phoenix, Trino
     ],
   )
 
@@ -74,10 +73,8 @@
     "Viettel Software Service (VSS)",
     date: "June 2023 - Sep 2023",
     body: [
-      - Install and configure NiFi cluster on server.
-      - Extract data from database to database, serving data warehouse building process by using Airflow.
-      - Write Kafka Producer to send Protobuf messages.
-      - Build Spark Streaming Consumer to consume Protobuf message and store on HDFS.
+      - Installed and configured NiFi cluster; built data pipelines with Airflow and Spark Streaming.
+      - Implemented Kafka Producer/Consumer for Protobuf message processing and HDFS storage.
       - *Tech:* NiFi, Airflow, Kafka, Spark, Hadoop HDFS
     ],
   )
@@ -87,14 +84,9 @@
     "VCCorp",
     date: "Dec 2022 - Jan 2023",
     body: [
-      - *Research and practice big data framework:*
-      - Spring Framework: Spring Framework Core, Spring Boot, Spring Data, Spring Web
-      - Consolidated database knowledge: MySQL, Elasticsearch, Aerospike, HBase (indexing, paging techniques)
-      - *Practiced real-world tasks:*
-      - Indexed data from MySQL to Elasticsearch
-      - Wrote API for retrieving data from Elasticsearch
-      - Processed log data on HDFS by Spark, then ingested and designed HBase schema based on requirements
-      - *Tech:* Spring, Spring Boot, Elasticsearch, Hadoop HDFS, Spark, HBase
+      - Worked with Spring ecosystem and big data technologies (MySQL, Elasticsearch, HBase, Spark).
+      - Indexed data to Elasticsearch and processed logs on HDFS using Spark.
+      - *Tech:* Spring Boot, Elasticsearch, Hadoop HDFS, Spark, HBase
     ],
   )
 ]
