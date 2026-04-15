@@ -18,7 +18,7 @@
       - *Optimized* Spark Jobs by addressing *data skew* and redesigning execution model, *reducing runtime* from about 50 minutes to about 5 minutes (about 10x improvement).
       - Built *orchestration and monitoring workflows* (*Airflow*) including *dependency management*, *data reconciliation*, and *alerting* for SLA tracking.
       - Designed *hierarchical data model* to support business-driven parameter inheritance, enabling flexible configuration across multiple levels.
-      - *Tech:* Spark, Airflow, MinIO
+      - *Tech:* Spark, Airflow, MinIO, Kubernetes, Trino
     ],
   )
 
@@ -46,9 +46,7 @@
     body: [
       - *Domain*: Bank
       - *Description*: Develop and maintain data pipelines in Cloud Data Platform which is *AWS* and *Databricks*.
-      - Follow best practice data pipeline.
-      - Implement automate metadata-driven workflow on AWS: trigger by Lambda, manage by DynamoDB.
-      - Utilize Spark job by Glue or Databricks platform for data manipulation.
+      - Follow best practice data pipeline and Utilize Spark job by Glue and Databricks platform for data manipulation.
       - Complete the assessment Databricks Certified Data Engineer Professional.
     ],
   )
