@@ -6,7 +6,7 @@
   #entry(
     "Data Engineer",
     "CMC Global",
-    location: "Singapore",
+    location: "",
     date: "July 2025 - Present",
     body: [
       - *Domain*: Silicon Chips
@@ -24,6 +24,19 @@
 
   #entry(
     "Data Engineer",
+    "CMC Global - Techcombank Project",
+    // location: "Onsite: Techcombank",
+    date: "May 2025 - June 2025",
+    body: [
+      - *Domain*: Bank
+      - *Description*: Develop and maintain data pipelines in Cloud Data Platform which is *AWS* and *Databricks*.
+      - Follow best practice data pipeline and Utilize Spark job by Glue and Databricks platform for data manipulation.
+      - Complete the assessment Databricks Certified Data Engineer Professional.
+    ],
+  )
+
+  #entry(
+    "Data Engineer",
     "Viettel Post (VTP)",
     date: "Dec 2023 - March 2025",
     body: [
@@ -35,19 +48,6 @@
       - Utilize Spark, Trino for data manipulation and analysis.
       - Support Backend development by writing APIs to get data and export Excel using Quarkus.
       - *Tech:* Spark, HDFS, HBase, NiFi, Airflow, Phoenix, Trino
-    ],
-  )
-
-  #entry(
-    "Data Engineer",
-    "CMC Global - Techcombank Project",
-    // location: "Onsite: Techcombank",
-    date: "May 2025 - June 2025",
-    body: [
-      - *Domain*: Bank
-      - *Description*: Develop and maintain data pipelines in Cloud Data Platform which is *AWS* and *Databricks*.
-      - Follow best practice data pipeline and Utilize Spark job by Glue and Databricks platform for data manipulation.
-      - Complete the assessment Databricks Certified Data Engineer Professional.
     ],
   )
 
